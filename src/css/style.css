@@ -338,7 +338,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  max-width: 97.25rem;
+  max-width: 94.5rem;
   width: 100%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -360,8 +360,8 @@ html, body {
 }
 
 .auth-menu__item--btn {
-  border-radius: 0.75rem;
-  background: #0D0D11;
+  border-radius: 3.125rem;
+  background: #3D96F4;
   padding: 1.25rem 2rem;
 }
 
@@ -383,6 +383,36 @@ html, body {
   font-size: 1.125rem;
   display: inline-block;
   color: #9C9C9C;
+}
+
+.button {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  margin-right: -1px;
+  display: flex;
+  align-self: flex-start;
+  border-radius: 3.125rem;
+  padding: 1.25rem 2rem;
+}
+.button__btn {
+  color: #FFF;
+  background: #81818B;
+}
+.button__btn-active {
+  color: #FFF;
+  background: #3D96F4;
+}
+
+.faces {
+  position: absolute;
+  height: 100vh;
+  left: 51.25%;
+  right: 0;
+  top: 0;
+  max-width: 100%;
 }
 
 html, body {

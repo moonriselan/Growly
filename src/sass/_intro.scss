@@ -28,7 +28,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  max-width: toRem(1556px);
+  max-width: toRem(1512px);
   width: 100%;
   padding-top: toRem(20px);
   padding-bottom: toRem(20px);
@@ -62,8 +62,8 @@
   }
 
   &__item--btn {
-    border-radius: toRem(12px);
-    background: $primary-color;
+    border-radius: toRem(50px);
+    background: $input-font-color;
     padding: toRem(20px) toRem(32px)
   }
 }
@@ -90,5 +90,34 @@
     color: $secondary-font-color;
   }
 }
+.button {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: toRem(16px);
+  text-align: left;
+  cursor: pointer;
+  margin-right: -1px;
+  display: flex;
+  align-self: flex-start;
+  border-radius: toRem(50px);
+  padding: toRem(20px) toRem(32px);
+  &__btn {
+    color: $primary-font-color;
+    background: $secondary-color;
 
+  }
+
+  &__btn-active {
+    color: $primary-font-color;
+    background: $input-font-color;
+  }
+}
+.faces {
+  position: absolute;
+  height: 100vh;
+  left: 51.25%;
+  right: 0;
+  top: 0;
+  max-width: 100%;
+}
 
